@@ -1,0 +1,28 @@
+.images {
+  height: 300px;
+  border-radius: 16px;
+  width: 100%;
+}
+.option {
+  flex-wrap: nowrap;
+}
+.marginleft{
+  margin-left: -40px;
+}
+
+@media (max-width: 576px) {
+  .images {
+    height: 120px;
+    width: 100%;
+  }
+  .marginleft{
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .images {
+    height: 120px;
+    width: 110%;
+  }
+}

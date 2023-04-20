@@ -1,0 +1,117 @@
+.uzbimg {
+    width: 100%;
+    height: 650px;
+    justify-content: space-between;
+    z-index: 0;
+}
+
+.buttonline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.choose-lang {
+    margin-top: 32px;
+    display: block;
+}
+
+.language {
+    margin-left: 5%;
+    flex-wrap: wrap;
+}
+
+.language h1 {
+    text-underline-style: dash;
+}
+
+.headertext {
+    position: absolute;
+    top: 150px;
+    left: 34%;
+    font-size: 5rem;
+    z-index: 100000;
+    color: white;
+    font-family: "Algerian", sans-serif;
+}
+
+.buttons {
+    width: 200px;
+}
+
+.lang-1 {
+    display: block;
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.lang-text {
+    transition: 0.5s ease;
+    opacity: 0;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 10px; */
+    /* transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%); */
+    text-align: center;
+    color: black;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+}
+
+.lang-flag:hover .lang-1 {
+    z-index: 0;
+}
+
+.lang-flag:hover .lang-text {
+    opacity: 1;
+    z-index: 10000;
+}
+
+.lang-flag:hover .global-text {
+    opacity: 1;
+    z-index: 10000;
+    color: black !important;
+}
+
+.lang-flag {
+    position: relative;
+}
+
+.global-text {
+    position: absolute;
+    top: 25px;
+    font-size: 22px;
+    padding: 16px 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .buttons {
+        width: 200px;
+    }
+
+    .language {
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .lang {
+        width: 140px !important;
+        margin: 0 0 0 -20px;
+    }
+
+    .lang-1 {
+        width: 100px !important;
+    }
+}

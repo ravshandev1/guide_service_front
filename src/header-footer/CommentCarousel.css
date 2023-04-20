@@ -1,0 +1,32 @@
+.userimg{
+    width: 40px!important;
+    height: 40px;
+    border-radius: 50%;
+}
+.usercomment{
+    padding-left: 58px;
+}
+.commenttext{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.userName{
+    font-weight: 700;
+}
+.left-padding{
+    width: 96%;
+    margin-left: 50px;
+}
+.img-text{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 576px){
+    .usercomment{
+        padding-left: 10px;
+    }
+    .left-padding{
+        width: 96%;
+        margin-left: 20px;
+    }
+}

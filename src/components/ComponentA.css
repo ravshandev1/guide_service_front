@@ -1,0 +1,51 @@
+.int {
+  display: flex ;
+}
+.name-disc{
+  display: block;
+}
+.description{
+  font-size: 1.3rem;
+}
+.regionimg {
+  width: 450px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+  .regionimg {
+    width: 90% !important;
+    height: 300px;
+    display: block;
+  }
+  .int {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .componentA {
+    flex-wrap: wrap;
+  }
+  .name {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .regionimg {
+    width: 100%;
+    height: 300px;
+    display: block;
+  }
+  .componentA {
+    display: block;
+    flex-wrap: nowrap;
+  }
+  .name {
+    display: block;
+  }
+  .int {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

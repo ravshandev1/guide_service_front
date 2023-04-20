@@ -1,0 +1,26 @@
+.linkogo {
+  position: fixed;
+  z-index: 1000;
+  top: auto;
+  align-items: end;
+  left: 95%;
+  display: flex;
+  bottom: 5%;
+}
+
+@media (max-width: 576px) {
+  body {
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+  }
+  .linkogo {
+    position: fixed;
+    z-index: 1000;
+    top: auto;
+    align-items: end;
+    left: 82% !important;
+    display: flex;
+    bottom: 3%;
+  }
+}

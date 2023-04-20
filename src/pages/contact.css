@@ -1,0 +1,94 @@
+.icons {
+  width: 85px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+.mtop {
+  margin-top: 0;
+}
+.submit-button {
+  margin: -10px auto 20px;
+  letter-spacing: 4px;
+}
+.media-dual {
+  display: block;
+}
+.icons {
+  width: 60px!important;
+  height: 60px!important;
+}
+.icons-text{
+  font-size:12px;
+
+}
+.flexicons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.displayIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.instagram-icon {
+  width: 54px !important;
+  height: 54px !important;
+  border-radius: 50%;
+}
+.facebook-icon {
+  width: 54px !important;
+  height: 54px !important;
+  border-radius: 50%;
+}
+.email-icon {
+  width: 58px !important;
+  height: 58px !important;
+  border-radius: 50%;
+}
+.call-icon {
+  width: 54px !important;
+  height: 54px !important;
+  border-radius: 50% !important;
+}
+@media (min-width: 576px) {
+  .icon-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .icons {
+    width: 120px!important;
+    height: 120px!important;
+  }
+  .mtop {
+    margin-top: 100px;
+  }
+  .media-dual {
+  }
+  .icons-text{
+    font-size:30px;
+  }
+  .instagram-icon {
+    width: 118px !important;
+    height: 118px !important;
+    border-radius: 50%;
+  }
+  .facebook-icon {
+    width: 112px !important;
+    height: 112px !important;
+    border-radius: 50%;
+  }
+  .email-icon {
+    width: 116px !important;
+    height: 120px !important;
+    border-radius: 100%;
+    background-color: transparent !important;
+  }
+  .call-icon {
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50% !important;
+  }
+}

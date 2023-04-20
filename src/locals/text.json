@@ -1,0 +1,32 @@
+{
+  "english": {
+    "site_name": "Tour Guid",
+    "contact": "Contact",
+    "book": "Book Me",
+    "submit": "Submit",
+    "about": "Location",
+    "places": "Interesting Place",
+    "days": "Busy days",
+    "welcome1": "GUIDES OF TAJIKISTAN",
+    "welcome2": "GUIDES OF KAZAKHSTAN",
+    "welcome3": "GUIDES OF KYRGYZSTAN",
+    "welcome4": "GUIDES OF UZBEKISTAN",
+    "cities": "Guides of Cities",
+    "lang": "Choose languages"
+  },
+  "russian": {
+    "site_name": "Tour Guid",
+    "contact": "Контакты",
+    "book": "Закажите меня",
+    "submit": "Представить",
+    "about": "Местоположение",
+    "places": "Интересное место",
+    "days": "Напряженные дни",
+    "welcome1": "ГИДЫ ТАДЖИКИСТАНУ",
+    "welcome2": "ГИДЫ КАЗАХСТАНУ",
+    "welcome3": "ГИДЫ КЫРГЫЗСТАНА",
+    "welcome4": "ГИДЫ УЗБЕКИСТАНУ",
+    "cities": "Гиды по городам",
+    "lang": "Выберите языки"
+  }
+}

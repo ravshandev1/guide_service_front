@@ -1,0 +1,68 @@
+{
+  "name": "guideus",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@knightburton/react-interval-calendar": "^2.0.1",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.11.15",
+    "@mui/x-date-pickers": "^6.0.3",
+    "@mui/x-date-pickers-pro": "^6.0.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.3.1",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "date-fns": "^2.29.3",
+    "fn-type": "^1.3.0",
+    "jquery": "^3.6.4",
+    "moment": "^2.29.4",
+    "mui-typography": "^1.1.2",
+    "node-sass": "^8.0.0",
+    "owl.carousel": "^2.3.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-calendar": "^4.2.1",
+    "react-dom": "^18.2.0",
+    "react-moment": "^1.1.3",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.9",
+    "toastify": "^2.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6"
+  }
+}
