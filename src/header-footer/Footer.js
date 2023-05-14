@@ -50,7 +50,7 @@ function Footer() {
                         <span className="d-flex align-items-center">
                 <img className="facebook" src={facebook} alt=""/>
                 <a className="text-decoration-none" href="https://www.facebook.com/profile.php?id=100091562413167">
-                  Fasebook
+                  Facebook
                 </a>
               </span>
                         <span className="d-flex align-items-center mt-1">
@@ -68,7 +68,7 @@ function Footer() {
                         <span className="d-flex align-items-center mt-1">
                 <img className="call" src={callicon} alt=""/>
                 <a className="text-decoration-none" href="tel:+998 05 001 99 44">
-                +998 05 001 99 44
+                +998 50 001 99 44
                 </a>
               </span>
                         <span className="d-flex align-items-center mt-1">

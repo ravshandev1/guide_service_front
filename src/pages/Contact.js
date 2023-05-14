@@ -26,14 +26,14 @@ function Contact() {
     }
 
     useEffect(() => {
-        axios.get(`${API}/api/v1/guid/city/`)
+        axios.get(`${API}api/v1/guid/city/`)
             .then((response) => {
                 setCity(response.data);
             })
             .catch((error) => {
                 console.log(error);
             });
-        axios.get(`${API}/api/v1/guid/language/`)
+        axios.get(`${API}api/v1/guid/language/`)
             .then((res) => {
                 setLanguage(res.data);
             })
@@ -73,7 +73,7 @@ function Contact() {
     // };
     const contact = (e) => {
         e.preventDefault();
-        axios.post(`${API}/api/v1/contact/`, {
+        axios.post(`${API}api/v1/contact/`, {
             name: data.name,
             email: data.email,
             phone: data.phone,

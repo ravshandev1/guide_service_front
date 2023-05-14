@@ -4,7 +4,7 @@
 }
 
 .img {
-  height: 550px!important;
+  height: 700px!important;
   width: 100%; 
 }
 
@@ -28,7 +28,7 @@
 
 .callBtn {
   position: absolute;
-  top: 405px!important;
+  top: 455px!important;
   left: 100px;
   width: 250px;
   height: 55px;

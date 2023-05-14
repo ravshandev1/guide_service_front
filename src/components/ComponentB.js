@@ -12,9 +12,10 @@ import {API} from "../pages/api";
 import text from "../locals/text.json";
 import GuidCarousel from "./GuidCarousel";
 import CommentCarousel from "../header-footer/CommentCarousel";
+import {useParams} from "react-router-dom";
 
 const ComponentB = (props) => {
-    const {id} = props;
+    const {id} = useParams();
     const language_id = getLang_id();
     const city_id = get_city_id();
     const [language, setLanguage] = useState([])

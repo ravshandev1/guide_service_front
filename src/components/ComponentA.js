@@ -14,6 +14,7 @@ const ComponentA = () => {
   const { id } = useParams();
   const [city, setCity] = useState();
   const [image, setImage] = useState([])
+  const [guides, setGuides] = useState([])
 
 
   const Lang = getLang();
@@ -23,6 +24,7 @@ const ComponentA = () => {
       .then((res) => {
         setCity(res.data);
         setImage(res.data.images);
+        setGuides(res.data.guids);
       })
       .catch((error) => {
         console.log(error);
@@ -50,13 +52,12 @@ const ComponentA = () => {
           </div>
           <div className="mt-3">
             <div>
-              {city &&
-                city?.guids?.map((item, index) => {
+              {guides && guides?.map((item, index) => {
                   return (
                     <div className="d-flex mx-5" key={index}>
                       <Link
                         className="text-dark d-flex"
-                        to={`/guid/${item.id}`}
+                        to={`/guid/${item.id}/`}
                         alt="no image"
                       >
                         <img

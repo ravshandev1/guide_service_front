@@ -1,11 +1,11 @@
 {
   "english": {
-    "site_name": "Tour Guid",
+    "site_name": "Tour Guide",
     "contact": "Contact",
     "book": "Book Me",
-    "submit": "Submit",
+    "submit": "Book Me",
     "about": "Location",
-    "places": "Interesting Place",
+    "places": "Sightseeings",
     "days": "Busy days",
     "welcome1": "GUIDES OF TAJIKISTAN",
     "welcome2": "GUIDES OF KAZAKHSTAN",
@@ -15,12 +15,12 @@
     "lang": "Choose languages"
   },
   "russian": {
-    "site_name": "Tour Guid",
+    "site_name": "Tour Guide",
     "contact": "Контакты",
     "book": "Закажите меня",
-    "submit": "Представить",
+    "submit": "Закажите меня",
     "about": "Местоположение",
-    "places": "Интересное место",
+    "places": "Достопримечательности",
     "days": "Напряженные дни",
     "welcome1": "ГИДЫ ТАДЖИКИСТАНУ",
     "welcome2": "ГИДЫ КАЗАХСТАНУ",
