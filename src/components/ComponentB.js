@@ -24,7 +24,6 @@ const ComponentB = (props) => {
     const [content, setContent] = useState({})
     const [comments, setComments] = useState([])
 
-
     const getLanguages = () => {
         axios.get(`${API}api/v1/guid/language/`)
             .then((res) => {

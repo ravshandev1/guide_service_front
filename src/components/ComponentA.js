@@ -6,7 +6,7 @@ import ContactNav from "../header-footer/ContactNav";
 import "../components/ComponentA.css";
 import { Rating, Typography } from "@mui/material";
 import Linkogo from "../pages/Linkogo";
-import {getLang, LANG} from "../locals";
+import {getLang} from "../locals";
 import Carousel from "./carousel_of_cities";
 import {API} from "../pages/api";
 
@@ -15,12 +15,9 @@ const ComponentA = () => {
   const [city, setCity] = useState();
   const [image, setImage] = useState([])
   const [guides, setGuides] = useState([])
-
-
-  const Lang = getLang();
   useEffect(() => {
     axios
-      .get(`${API}${Lang}/api/v1/guid/city/${id}/`)
+      .get(`${API}${getLang()}/api/v1/guid/city/${id}/`)
       .then((res) => {
         setCity(res.data);
         setImage(res.data.images);

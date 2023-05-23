@@ -15,14 +15,13 @@ import text from "../locals/text.json";
 
 const GuideServise = () => {
   const [image, setImageData] = useState([]);
-  const Lang = getLang();
   const [content, setContent] = useState({})
   const set_city_id = (id) => {
       localStorage.setItem(CITY_ID, id);
   };
   useEffect(() => {
     axios
-      .get(`${API}${Lang}/api/v1/guid/city/`)
+      .get(`${API}${getLang()}/api/v1/guid/city/`)
       .then((response) => {
         setImageData(response.data);
       })

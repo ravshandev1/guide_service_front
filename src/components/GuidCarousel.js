@@ -9,10 +9,8 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
 import "../components/OwlCarouselRegion.css";
-
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-
 import "../components/GuidCarousel.css";
 import {API} from '../pages/api'
 const Owldemo3 = (props) => {

@@ -4,7 +4,12 @@ export const CITY_ID = "CITY_ID";
 export const LANG = "LANG";
 
 export function getLang() {
-    return localStorage.getItem(LANGUAGE_NAME);
+    if (localStorage.getItem(LANGUAGE_NAME) === '') {
+        return 'en';
+    }
+    else {
+        return localStorage.getItem(LANGUAGE_NAME);
+    }
 }
 
 export function getLang_id() {

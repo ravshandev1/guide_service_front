@@ -8,14 +8,14 @@ import "owl.carousel/dist/assets/owl.theme.default.min.css";
 import "../components/OwlCarouselRegion.css";
 import axios from "axios";
 import {API} from '../pages/api'
-import {LANG} from "../locals";
+import {LANG, getLang} from "../locals";
 import text from "../locals/text.json";
 
 function Owldemo2() {
     const [content, setContent] = useState({})
     const [images, setImages] = useState([])
     useEffect(() => {
-        axios.get(`${API}api/v1/contact/places/`)
+        axios.get(`${API}${getLang()}/api/v1/contact/places/`)
             .then((res) => {setImages(res.data);})
             .catch(error => {
                 console.log(error);

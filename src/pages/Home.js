@@ -20,14 +20,10 @@ function Home() {
     if (language_name !== localStorage.getItem(LANGUAGE_NAME)) {
       localStorage.setItem(LANGUAGE_NAME, language_name);
       localStorage.setItem(LANGUAGE_ID, language_id);
-      if (language_name === 'ru'){
-          localStorage.setItem(LANGUAGE_NAME, '')
-      }
     }
   };
   useEffect(() => {
-    axios
-      .get(`${API}api/v1/guid/language/`)
+    axios.get(`${API}api/v1/guid/language/`)
       .then((res) => {
         setLanguage(res.data);
       })

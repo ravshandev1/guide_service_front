@@ -17,6 +17,7 @@ import img7 from '../img/img-7.jpeg';
 import img8 from '../img/img-8.jpg';
 import text from '../locals/text.json';
 import {LANG} from "../locals";
+import { Link } from "react-router-dom";
 
 function Owldemo1() {
     const [content, setContent] = useState({})
@@ -45,60 +46,52 @@ function Owldemo1() {
                     margin={8}
                 >
                     <div>
-                        {/* <h1 className="owltext">UZBEKISTAN</h1> */}
                         <p className="visit">{content.welcome1}</p>
                         <img className="img " src={img1} alt=""/>
-                        <button type="submit" className="callBtn"><a href={"/contact"}><p
-                            className="callBtnText">{content.contact}</p></a></button>
+                        <button type="submit" className="callBtn"><Link to={"/contact"}><p
+                            className="callBtnText">{content.contact}</p></Link></button>
                     </div>
                     <div>
-                        {/* <h1 className="owltext">UZBEKISTAN</h1> */}
                         <p className="visit">{content.welcome2}</p>
                         <img className="img" src={img2} alt=""/>
-                        <button type="submit" className="callBtn"><a href={"/contact"}><p
-                            className="callBtnText">{content.contact}</p></a></button>
+                        <button type="submit" className="callBtn"><Link to={"/contact"}><p
+                            className="callBtnText">{content.contact}</p></Link></button>
                     </div>
                     <div>
-                        {/* <h1 className="owltext">UZBEKISTAN</h1> */}
                         <p className="visit">{content.welcome3}</p>
                         <img className="img" src={img3} alt=""/>
-                        <button type="submit" className="callBtn"><a href={"/contact"}><p
-                            className="callBtnText">{content.contact}</p></a></button>
+                        <button type="submit" className="callBtn"><Link to={"/contact"}><p
+                            className="callBtnText">{content.contact}</p></Link></button>
                     </div>
                     <div>
-                        {/* <h1 className="owltext">UZBEKISTAN</h1> */}
                         <p className="visit">{content.welcome1}</p>
                         <img className="img" src={img4} alt=""/>
-                        <button type="submit" className="callBtn"><a href={"/contact"}><p
-                            className="callBtnText">{content.contact}</p></a></button>
+                        <button type="submit" className="callBtn"><Link to={"/contact"}><p
+                            className="callBtnText">{content.contact}</p></Link></button>
                     </div>
                     <div>
-                        {/* <h1 className="owltext">UZBEKISTAN</h1> */}
                         <p className="visit">{content.welcome4}</p>
                         <img className="img" src={img5} alt=""/>
-                        <button type="submit" className="callBtn"><a href={"/contact"}><p
-                            className="callBtnText">{content.contact}</p></a></button>
+                        <button type="submit" className="callBtn"><Link to={"/contact"}><p
+                            className="callBtnText">{content.contact}</p></Link></button>
                     </div>
                     <div>
-                        {/* <h1 className="owltext">UZBEKISTAN</h1> */}
                         <p className="visit">{content.welcome4}</p>
                         <img className="img" src={img6} alt=""/>
-                        <button type="submit" className="callBtn"><a href={"/contact"}><p
-                            className="callBtnText">{content.contact}</p></a></button>
+                        <button type="submit" className="callBtn"><Link to={"/contact"}><p
+                            className="callBtnText">{content.contact}</p></Link></button>
                     </div>
                     <div>
-                        {/* <h1 className="owltext">UZBEKISTAN</h1> */}
                         <p className="visit">{content.welcome4}</p>
                         <img className="img" src={img7} alt=""/>
-                        <button type="submit" className="callBtn"><a href={"/contact"}><p
-                            className="callBtnText">{content.contact}</p></a></button>
+                        <button type="submit" className="callBtn"><Link to={"/contact"}><p
+                            className="callBtnText">{content.contact}</p></Link></button>
                     </div>
                     <div>
-                        {/* <h1 className="owltext">UZBEKISTAN</h1> */}
                         <p className="visit">{content.welcome4}</p>
                         <img className="img" src={img8} alt=""/>
-                        <button type="submit" className="callBtn"><a href={"/contact"}><p
-                            className="callBtnText">{content.contact}</p></a></button>
+                        <button type="submit" className="callBtn"><Link to={"/contact"}><p
+                            className="callBtnText">{content.contact}</p></Link></button>
                     </div>
 
                 </OwlCarousel>

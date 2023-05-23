@@ -13,7 +13,7 @@ import telegram from "../assets/telegram-icon.png";
 import instagram from "../assets/Instagram-Image.png";
 import axios from "axios";
 import {API} from '../pages/api';
-import {LANG, LANGUAGE_NAME} from "../locals";
+import {LANG, getLang} from "../locals";
 import text from "../locals/text.json";
 
 function Footer() {
@@ -21,8 +21,7 @@ function Footer() {
     const [content, setContent] = useState({})
     useEffect(() => {
         // invalid url will trigger an 404 error
-        const lang = localStorage.getItem(LANGUAGE_NAME)
-        axios.get(`${API}${lang ? lang : 'ru'}/api/v1/contact/about/`).then((res) => {
+        axios.get(`${API}${getLang()}/api/v1/contact/about/`).then((res) => {
             setAbout(res.data);
         }).catch(error => {
             console.log(error);

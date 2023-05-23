@@ -1,1 +1,1 @@
-export const API = 'http://162.0.236.181/'
+export const API = 'https://backend.tourguide.travel/'
